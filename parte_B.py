@@ -12,7 +12,7 @@ X = x2[::-1]
 R = nmp.convolve(x1, X)
 print("Correlacion =", R)
 
-k = nmp.arange(-8,8) #Desplazamientos de la señal
+k = nmp.arange(-8,9) #Desplazamientos de la señal
 plt.stem(k,R) #grafica de correlacion
 
 plt.title("Correlacion cruzada entre x1 y x2")
